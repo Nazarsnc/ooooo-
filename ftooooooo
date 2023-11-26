@@ -14,7 +14,7 @@ notes = {
     }
 }
 
-with open('f.json', 'w') as file:
+with open('f.json', 'r') as file:
     notes=json.load(file)
 
 # параметри вікна
